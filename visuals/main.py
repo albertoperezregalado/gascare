@@ -70,12 +70,6 @@ class VisualApp: # clase visual
         )
         self.predict_distributor_button.pack(pady=10)
 
-        # Boton para mostrar graficas generadas previamente
-        self.visualize_button = tk.Button(
-            root, text="Mostrar Gráficas Generadas", command=self.mostrar_graficas, bg="#3c3c3c", fg="#ffffff"
-        )
-        self.visualize_button.pack(pady=10)
-
         self.status_label = tk.Label(root, text="", fg="#00ff00", bg="#1e1e1e", font=("Arial", 10))
         self.status_label.pack(pady=10)
 
