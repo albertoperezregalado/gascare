@@ -248,7 +248,7 @@ if __name__ == "__main__":
         pass
 
     # Cargamos los datos indicando donde se encuentran
-    directorio = "ProyectoComputacion_I/Actividad/Download/"
+    directorio = "../ProyectoComputacion_I/Actividad/Download"
     data_historica = cargar_datos_desde_csv(directorio)
 
     # Si no hay datos, saca este syso
